@@ -1,0 +1,16 @@
+- project:
+  title: Auto-Dimming WiFi Enabled Digital Picture Frame
+  link: "https://github.com/jamesrobb/T-732-ISIT_2017"
+  description: 'A classmate and I created an auto-dimming wifi enbabled digital picture frame as a project for our embedded systems/IoT course. The project also doubled as a Christmas gift for my wife. I already had a Raspberry Pi 3 and an old laptop LCD panel kicking around, so the idea followed naturally from that. We created both a server and client application. The server allowed a user to connect to a website hosted on the picture frame to configure what images to look at, and for how long. The client application ran on the picture frame as well and was responsible for actually displaying the slide show of images. An FTP server also runs on the picture frame to allow for a simple way to upload/manage pictures. Finally, we wrote a small script that polls a light sensor to adjust the brightness on the display. We connect a wire from a PWM pin on the Raspberry Pi to a pin on the eDP connector of the LCD panel to achieve this.<br /><br /><a href="https://imgur.com/a/nyIX9#Jz1a2bi">Album of digital picture frame build</a'
+- project:
+  title: Safety Valve (Öryggisventill)
+  link: https://github.com/piratar/safetyvalve
+  description: 'In collaboration with others in the Pirate Party of Iceland, I created Safety Valve. Safety Valve is a platform that allows the residents of Iceland to act as a shadow parliament of sorts. Each bill currently moving through Icelandic parliament is converted into a petition. Residents can then digitally sign for or against each petition using their Ice Key, a digital authentication mechanism provided by the Icelandic government. We had an implementation running for a couple of years, but we have since taken it down until further improvements are made to the system.'
+- project:
+  title: Icelandic Word Clock
+  link: "https://github.com/jamesrobb/icelandic_bday_word_clock"
+  description: 'I created a word clock in the Icelandic Language as a gift for my wife. I used an Arduino Uno and a breadboard to construct the initial clock. Since then, I have improved upon the design and used EagleCAD to design a custom PCB. I had a few of these PCBs manufactured and used them to build a couple more clocks.<br /><br /><a href="https://imgur.com/a/jut19">Album of original design</a><br /><a href="https://imgur.com/a/hvtHd">Album of design with custom PCB</a>'
+- project:
+  title: "1977 Kawasaki KZ650 Restoration"
+  link: "https://imgur.com/a/ZMrZi"
+  description: 'My father and I purchased a 1977 KZ650 in need of some TLC from some family members in southern Manitoba after I had expressed an interest in motorcycles. My father was a seasoned biker, and I learned a lot from him throughout the process. The motorcycle technically ran when we purchased it, but not very well. After a year of learning and elbow grease, I had a wonderful motorcycle and a great experience under my belt. I replaced transmission components, converted all analog components to solid state components, and replaced most of the drive-train. With some help from a family friend, I also painted it.'

@@ -1,0 +1,25 @@
+- publication:
+  title: "Nested, but Separate: Isolating Unrelated Critical Sections in Real-Time Nested Locking"
+  time: 2020
+  file: technical_writing/ecrts2020_extended.pdf
+  details: "Björn Brandenburg and I introduced a novel real-time fined-grained nested locking protocol for real-time systems under clustered scheduling. Our protocol provides temporal isolation for latency-sensitive tasks that access (possibly) nested resources while remaining asymptotically optimal. The paper has been published in the proceedings of the 32nd Euromicro Conference on Real-Time Systems. The extended version is available for download at the following link."
+- publication:
+  title: Master's Thesis - Temporal Isolation of Latency-Sensitive Tasks in Real-Time Nested Locking
+  time: 2020
+  file: technical_writing/msc-robb-2020.pdf
+  details: "My master's thesis is based on my paper <i>Nested, but Separate: Isolating Unrelated Critical Sections in Real-Time Nested Locking</i> and provides a much more thorough background on real-time locking to make the material accessible to a wider computer science audience."
+- publication:
+  title: Bachelor's Thesis - Identifying Combinatorial Structures for Binary Strings and Set Partitions
+  time: 2018
+  file: technical_writing/Identifying_Structures_of_Combintorial_Objects.pdf
+  details: "Sigurður Helgason and I explore how to build combinatorial specifications for avoidance classes of binary strings and set partitions in our bachelor's thesis. We build upon the work of Bean et al. and the CombSpecSearcher system to do so. We show that we can find a combinatorial specification for any avoidance class of binary strings, and combinatorial specifications for many avoidance classes of set partitions."
+- publication:
+  title: Optical Character Recognition of Cyrillic Characters Using a Convolutional Neural Network
+  time: 2017
+  file: technical_writing/dragnet.pdf
+  details: 'I created a convolutional neural network and a set of complementary utilities for optical character recognition with two classmates in my Introduction to Artificial Intelligence course at Reykjavik University. In particular, we focused on reconstructing water damaged documents written in the Ukrainian language. Tensorflow was used for the neural network and the <a href="https://github.com/jamesrobb/dragnet">code is published on GitHub</a>.'
+- publication:
+  title: Embedded Device Hacking - ASUS RT-AC68U
+  time: 2017 
+  external_link: https://www.youtube.com/watch?v=Fhj10h0A378
+  details: 'In my Computer Security class I explored embedded device hacking with the ASUS RT-AC68U router. First I outline how we can examine the firmware of the router and execute some commands in an emulated environment. I then review an exploit that allows a client connected to the router to gain root access. Finally, I demonstrate an exploit that allows a client to obtain persistent ssh access to the router.'

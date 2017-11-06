@@ -1,0 +1,39 @@
+{% if site.data.publications %}
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Publications and Technical Write-ups</h2>
+
+{% for publication in site.data.publications %}
+    <div class="item">
+
+        <div class="meta">
+
+            <div class="upper-row">
+                <h3 class="publication-title">{{ publication.title }}</h3>
+                <div class="publication-time">{{ publication.time }}</div>
+            </div><!--//upper-row-->
+
+        </div><!--//meta-->
+
+        {% if publication.details %}
+            <div class="details">
+                <p>{{ publication.details }}</p>
+            </div><!--//details-->
+        {% endif %}
+
+        {% if publication.file %}
+        <div>
+            <a target="_new" href="{{ site.baseurl }}downloads/{{ publication.file }}">download</a>
+        </div>
+        {% endif %}
+
+        {% if publication.external_link %}
+        <div>
+            <a target="_new" href="{{ publication.external_link }}">{{ publication.external_link }}</a>
+        </div>
+        {% endif %}
+
+    </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}
