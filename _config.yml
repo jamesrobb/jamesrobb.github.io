@@ -15,7 +15,7 @@ name: James Robb
 tagline: "Computer Scientist and Software Engineer "
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-summary: "I am an experienced software engineer in Reykjavik, Iceland that has worked on a wide variety of software and architectural challenges. I hold an MSc in Computer Science and a BSc in Discrete Mathematics/Computer Science. I'm a DIY enthusiast and have been writing code and and building hardware for my own projects for a couple of decades now. Code is a (super super cool) tool we use to realize our higher-level goals and objectives. I believe in finding and using the right tools so that we can build understandable, testable, and performant solutions to realize our goals."
+summary: "I am an experienced software engineer in Reykjavik, Iceland that has worked on a wide variety of software and architectural challenges. I hold an MSc in Computer Science and a BSc in Discrete Mathematics/Computer Science. I'm a DIY enthusiast and have been writing code and and building hardware for my own projects for a couple of decades now.<br /><br />Code is a (super cool) tool we use to accomplish higher-level goals and objectives. I enjoy finding and using the right tools to build understandable, testable, and performant solutions to realize our goals."
 
 #sidebar links
 email: me@jamesrobb.ca
